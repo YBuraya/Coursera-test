@@ -4,11 +4,8 @@
 
 body {
     font-family: 'Fira Sans', sans-serif;
-    color: #616161;
     font-size: 18px;
 }
-
-/* Simple Responsive Framework. */
 
 .row {
     width: 100%;
@@ -120,8 +117,6 @@ h1 {
     margin-bottom: 20px;
     margin-right: 10px;
     margin-left: 10px;
-    font-family: Helvetica;
-    color: white;
     position: relative;
 }
 
@@ -134,12 +129,15 @@ h1 {
     position: absolute;
     margin-top: 0px;
     right: 0px;
+    border: 1px solid #111;
+    color: white;
 }
 
 .text {
-    background-color: #111;
+    background-color: blanchedalmond;
     padding: 55px 20px;
-    color: blanchedalmond;
+    color: #111;
     margin: 0px;
     border-radius: 4px;
+    border: 1px solid #111;
 }
