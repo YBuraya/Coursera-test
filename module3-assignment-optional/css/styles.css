@@ -1,0 +1,97 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #1c1f23;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #111315;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1 {
+    /* Restaurant name */
+    color: #e2e3e4;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-left: 30px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #e2e3e4;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #e2e3e4;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #e2e3e4;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+
+.food-card {
+    background-color: #23242A;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+h3 {
+    margin-bottom: 25px;
+}
+
+p {
+    color: #e2e3e4;
+}
+
+/********* LARGE DEVICES *********/
+
+/********* MEDIUM AND LARGE DEVICES *********/
+
+@media (min-width: 992px) {}
+
+/********* SMALL DEVICES *********/
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/********* EXTRA SMALL DEVICES *********/
+
+@media (max-width: 767px) {}
